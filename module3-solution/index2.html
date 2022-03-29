@@ -5,24 +5,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
     <title>Bootstrap Starter Page</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/css2.css">
+    <link rel="stylesheet" href="bootstrap-3.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
   </head>
-<body>
 
-  <h1>Hello Coursera!</h1>
+<body>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <div class="navbar-brand">
+            <a href="index2.html" class="pull-left"><h1>Food, LLC</h1></a>
+          </div>
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li>
+              <a href="#">
+                <br class="hidden-xs"> Chicken</a>
+            </li>
+            <li>
+              <a href="#">
+                <br class="hidden-xs"> Beef</a>
+            </li>
+            <li>
+              <a href="#">
+                <br class="hidden-xs"> Sushi</a>
+            </li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div>
+    </nav>
+  </header>   
+
+  <h2>Our Menu</h2> 
+
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12" id="title">Chicken</div>
+      <div class="col-xs-12 col-sm-12 col-md-12" id="paragraph"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At volutpat diam ut venenatis tellus in metus. Lorem dolor sed viverra ipsum nunc aliquet bibendum. Rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar pellentesque. Eget felis eget nunc lobortis. Urna et pharetra pharetra massa massa. Malesuada proin libero nunc consequat interdum varius sit. Potenti nullam ac tortor vitae purus faucibus ornare. Vitae ultricies leo integer malesuada nunc. Ullamcorper morbi tincidunt ornare massa.
+
+Augue neque gravida in fermentum et. Convallis posuere morbi leo urna molestie at elementum. Et magnis dis parturient montes nascetur ridiculus. Non odio euismod lacinia at. Amet purus gravida quis blandit turpis cursus in. Odio morbi quis commodo odio aenean sed adipiscing. In iaculis nunc sed augue lacus. Auctor elit sed vulputate mi sit amet mauris commodo. At imperdiet dui accumsan sit. Purus ut faucibus pulvinar elementum integer enim neque volutpat ac. Urna condimentum mattis pellentesque id nibh tortor.
+
+Orci dapibus ultrices in iaculis nunc. Turpis nunc eget lorem dolor sed viverra ipsum. Tincidunt ornare massa eget egestas. Facilisis magna etiam tempor orci. Nulla porttitor massa id neque. Fermentum dui faucibus in ornare quam viverra. Scelerisque eu ultrices vitae auctor eu augue ut lectus. Sapien eget mi proin sed libero enim sed faucibus. Amet justo donec enim diam vulputate ut pharetra sit. Dui accumsan sit amet nulla facilisi morbi tempus iaculis.
+
+Duis convallis convallis tellus id interdum velit laoreet id donec. Amet consectetur adipiscing elit duis tristique. In ante metus dictum at tempor. Nulla facilisi morbi tempus iaculis. Viverra tellus in hac habitasse platea dictumst vestibulum rhoncus est. Sed adipiscing diam donec adipiscing tristique. Risus ultricies tristique nulla aliquet enim. Eu nisl nunc mi ipsum faucibus vitae aliquet nec. Aliquet bibendum enim facilisis gravida neque convallis a cras semper. Nulla pharetra diam sit amet nisl suscipit. Ac turpis egestas sed tempus urna et pharetra. Vulputate ut pharetra sit amet aliquam id diam maecenas. Venenatis cras sed felis eget velit aliquet sagittis id.
+
+Ut diam quam nulla porttitor massa id neque aliquam. Etiam sit amet nisl purus in mollis nunc sed. Nec ullamcorper sit amet risus nullam eget felis. Congue eu consequat ac felis donec et odio. Auctor neque vitae tempus quam. Vitae elementum curabitur vitae nunc sed velit dignissim sodales. Donec enim diam vulputate ut. Augue eget arcu dictum varius duis at consectetur lorem. Magna etiam tempor orci eu. Magna fermentum iaculis eu non diam phasellus vestibulum lorem sed. Sed risus ultricies tristique nulla aliquet enim. Scelerisque eleifend donec pretium vulputate. Orci porta non pulvinar neque laoreet suspendisse interdum consectetur libero. Urna nunc id cursus metus aliquam. Sit amet venenatis urna cursus eget nunc scelerisque. Enim ut tellus elementum sagittis vitae et leo duis ut. Proin fermentum leo vel orci. Pulvinar elementum integer enim neque volutpat ac tincidunt.</div>
+    </div> 
+   </div> 
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="js/jquery-1.11.3.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/script.js"></script>
+  <script src="bootstrap-3.4.1-dist/js/jquery-3.6.0.min.js"></script>
+  <script src="bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
+  <script src="bootstrap-3.4.1-dist/js/script.js"></script>
 </body>
 </html>
